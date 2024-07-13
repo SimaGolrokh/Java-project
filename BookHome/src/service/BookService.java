@@ -11,8 +11,8 @@ public class BookService {
     public void addBook(Book book){
         books.add(book);
     }
-    public void addEBook(EBook eBook) {
-        books.add(eBook);
+    public void addEBook(EBook ebook) {
+        books.add(ebook);
     }
     public void removeBook(String ISBN) {
         books.removeIf(book -> book.getISBN().equals(ISBN));

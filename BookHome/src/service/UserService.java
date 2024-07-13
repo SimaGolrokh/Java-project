@@ -1,6 +1,7 @@
 package service;
 
 import model.Book;
+import model.EBook;
 import model.User;
 
 import java.util.ArrayList;
@@ -26,6 +27,10 @@ public class UserService {
             book.setAvailable(true);
             user.returnBook(book);
         }
+    }
+    public void uploadEBook(User user, EBook ebook, BookService bookService){
+        bookService.addEBook(ebook);
+        user.uploadEBook(ebook);
     }
 
     public List<User> getUsers(){
