@@ -8,7 +8,7 @@
 
 **Concepts Used**:
 1. **Inheritance and Polymorphism**:
-   - `EBook` extends `Book`, adding a `format` field and overriding the `toString` method to provide specific behavior for e-books.
+   - `EBook` extends `Book`, adding overriding the `toString` method to provide specific behavior for e-books.
 
 # Review.java
 
